@@ -32,7 +32,7 @@ dependencies {
     })
     compile 'com.android.support:appcompat-v7:27.+'
     testCompile 'junit:junit:4.12'
-
+    
     compile 'com.android.support:support-fragment:25.3.1'
     compile "com.android.support:support-core-utils:25.3.1"
 }
