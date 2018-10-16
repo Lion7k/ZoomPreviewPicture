@@ -16,12 +16,6 @@
 ####效果如下：
 
 ![](gif/test.gif)
-
-通过Gradle抓取:
- 
-```grade
-  compile 'com.liuzq:ImagePreview:1.0.0'
-```
  
 ###  1.本项目类库依赖第三库
   >>>注意: 由于的[photoview](https://github.com/chrisbanes/PhotoView)有些事件冲突，将1.3.1版本源代码修改采用依赖本地。
