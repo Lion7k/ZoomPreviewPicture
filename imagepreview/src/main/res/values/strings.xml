@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">ImagePreview</string>
+    <string name="string_count">%1$s/%2$s</string>
+    <string name="Playback_failed">播放失败</string>
+</resources>

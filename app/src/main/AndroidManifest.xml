@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.liuzq.previewpicture">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:name=".app.App"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.liuzq.previewpicture.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".custom.activity.GridViewCustomActivity" />
+        <!--d注册自定义activity-->
+        <activity
+            android:name=".custom.activity.CustomActivity"
+            android:theme="@style/AppTheme_8.0" />
+
+        <activity android:name=".recycle.activity.RecycleViewActivity" />
+
+        <activity android:name=".list.activity.ListView2Activity" />
+
+        <activity android:name=".list.activity.GridView2Activity" />
+
+        <activity
+            android:name=".nine.activity.GridStyleActivity"
+            android:theme="@style/AppTheme" />
+
+        <activity android:name=".pager.activity.ViewPagerActivity" />
+        <activity android:name=".video.activity.VideoViewActivity" />
+
+        <activity android:name=".video.activity.VideoPlayerDetailedActivity" />
+    </application>
+
+</manifest>
