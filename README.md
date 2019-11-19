@@ -19,6 +19,26 @@
 
 ![](gif/test.gif)
  
+ ### 添加Gradle依赖
+
+先在项目根目录的 build.gradle 的 repositories 添加:
+```
+     allprojects {
+         repositories {
+            ...
+            maven { url "https://jitpack.io" }
+        }
+    }
+```
+ 然后在dependencies添加:
+ 
+ ```
+        dependencies {
+        ...
+        compile 'com.github.Lion7k:ZoomPreviewPicture:1.0.0'
+        }
+```
+ 
 ###  1.本项目类库依赖第三库
   >>>注意: 由于的[photoview](https://github.com/chrisbanes/PhotoView)有些事件冲突，将1.3.1版本源代码修改采用依赖本地。
 ```
